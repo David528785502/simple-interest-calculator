@@ -1,0 +1,18 @@
+C:\Users\gabo\Downloads\simple-interest-calculator>git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+
+C:\Users\gabo\Downloads\simple-interest-calculator>git add README.md
+
+C:\Users\gabo\Downloads\simple-interest-calculator>git commit -m "Fix typo in README"
+[bug-fix-typo 2f12f9a] Fix typo in README
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\gabo\Downloads\simple-interest-calculator>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\gabo\Downloads\simple-interest-calculator>git merge bug-fix-typo
+Updating ee2fa53..2f12f9a
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
